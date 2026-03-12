@@ -467,7 +467,7 @@ label {
 
 .body-2 {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 22.4px;
 }
 
@@ -1277,7 +1277,7 @@ label {
   position: relative;
   display: block;
   text-align: center;
-  font-weight: 600;
+  font-weight: 900;
   padding: 27px 0px;
   letter-spacing: 0px;
   color: var(--light);
@@ -2543,7 +2543,7 @@ label {
 
 .flat-tab-form .nav-tab-form.style-2 .nav-link-item.active,
 .flat-tab-form .nav-tab-form.style-2 .nav-link-item:hover {
-  background-color: #D9B356;
+  background-color: #816E5D;
   color: var(--light);
 }
 
@@ -2807,13 +2807,13 @@ label {
 }
 
 .flat-slider.home-2 .wrap-search-link .categories-list .icon {
-  color: #D9B356;
+  color: #000;
   border-radius: 50%;
   background-color: none;
 }
 
 .flat-slider.home-2 .wrap-search-link a {
-  color: var(--light);
+  color: #5E4429;
 }
 
 .flat-slider .slider-sw-home2,
@@ -2984,7 +2984,7 @@ label {
 .wrap-search-link a {
   font-size: 14px;
   line-height: 19.6px;
-  font-weight: 600;
+  font-weight: 800;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -3809,8 +3809,8 @@ label {
 }
 
 .wd-find-select .inner-group .form-style label {
-  font-weight: 600;
-  color: #e6d3a3;
+  font-weight: 900;
+  color: #000;
 }
 
 .wd-find-select .inner-group .form-style:not(:last-child) {
@@ -13352,26 +13352,26 @@ tr {
 /* --- LUXURY DARK GOLDEN RAMADAN THEME --- */
 
 :root {
-  --ramadan-bg-main: #1C1912;
-  --ramadan-bg-section: #15120D;
+  --ramadan-bg-main: #1F1F1F;
+  --ramadan-bg-section: #323232;
   --ramadan-bg-card: #262016;
 
-  --ramadan-gold-primary-1: #D4AF37;
+  --ramadan-gold-primary-1: #816e5d;
   --ramadan-gold-primary-2: #C9A24E;
-  --ramadan-gold-primary-3: #B8963D;
+  --ramadan-gold-primary-3: #816e5d;
 
-  --ramadan-gold-soft-1: #E8C999;
-  --ramadan-gold-soft-2: #E6D3A3;
+  --ramadan-gold-soft-1: #877D73;
+  --ramadan-gold-soft-2: #816E5D;
 
-  --ramadan-gold-high-1: #FFD36B;
+  --ramadan-gold-high-1: #816e5d;
   --ramadan-gold-high-2: #F6D27A;
 
   --ramadan-border: #8C6B2F;
 
-  --primary: var(--ramadan-gold-primary-1);
+  --primary: #816e5d;
   --secondary: var(--ramadan-gold-soft-1);
   --background: var(--ramadan-bg-main);
-  --light: var(--ramadan-gold-soft-2);
+  --light: #000;
 }
 
 body,
@@ -13426,7 +13426,7 @@ a {
   background: linear-gradient(135deg, var(--ramadan-gold-high-1), var(--ramadan-gold-soft-1), var(--ramadan-gold-primary-1), var(--ramadan-gold-primary-3)) !important;
   color: var(--ramadan-bg-main) !important;
   border: none !important;
-  font-weight: 700 !important;
+  font-weight: 900 !important;
 }
 
 .tf-btn:hover,
@@ -13450,7 +13450,7 @@ a {
 .single-property-element,
 .info-box,
 .box-tes-item {
-  background-color: var(--ramadan-bg-card) !important;
+  background-color: #5C5044 !important;
   border: 1px solid var(--ramadan-border) !important;
   border-radius: 20px;
   padding: 10px;
@@ -13496,7 +13496,7 @@ select,
 .form-control,
 .nice-select {
   background-color: transparent !important;
-  color: var(--ramadan-gold-soft-2) !important;
+  color: #000 !important;
   border: none !important;
 }
 
@@ -13504,7 +13504,7 @@ select,
 .nice-select .option,
 .mobile-menu .menu-box {
   background-color: var(--ramadan-bg-section) !important;
-  color: var(--ramadan-gold-soft-2) !important;
+  color: #000 !important;
   border: none !important;
 }
 
@@ -13517,7 +13517,7 @@ select:focus,
   border: none !important;
   outline: none !important;
   box-shadow: none !important;
-  color: var(--ramadan-gold-high-1) !important;
+  color: #000 !important;
 }
 
 /* Specific component fixes for golden luxury theme */
