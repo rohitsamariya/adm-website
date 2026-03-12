@@ -13407,7 +13407,7 @@ h6 {
 
 .main-header .main-menu .navigation>li>a:hover {
   color: var(--ramadan-gold-primary-1) !important;
-  text-shadow: 0 0 10px var(--ramadan-gold-primary-1);
+  /*text-shadow: 0 0 10px var(--ramadan-gold-primary-1);*/
 }
 
 /* Links */
